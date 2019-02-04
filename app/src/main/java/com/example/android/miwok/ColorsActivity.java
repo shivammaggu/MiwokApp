@@ -29,7 +29,9 @@ import java.util.ArrayList;
 public class ColorsActivity extends AppCompatActivity {
 
     private MediaPlayer mediaPlayer;
-    /** Handles audio focus when playing a sound file */
+    /**
+     * Handles audio focus when playing a sound file
+     */
     private AudioManager mAudioManager;
     /**
      * This listener gets triggered when the {@link MediaPlayer} has completed
@@ -71,7 +73,6 @@ public class ColorsActivity extends AppCompatActivity {
             }
         }
     };
-
 
 
     @Override

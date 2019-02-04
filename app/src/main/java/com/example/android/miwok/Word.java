@@ -6,10 +6,14 @@ public class Word {
 
     private String mmiwaktrans;
 
-    /** Image resource ID for the word */
+    /**
+     * Image resource ID for the word
+     */
     private int mResourceId = NO_IMAGE_PROVIDED;
 
-    /** Constant value that represents no image was provided for this word */
+    /**
+     * Constant value that represents no image was provided for this word
+     */
     private static final int NO_IMAGE_PROVIDED = -1;
 
     private int mMusicResID;
@@ -38,7 +42,9 @@ public class Word {
         return mmiwaktrans;
     }
 
-    public int getmResourceId() { return mResourceId; }
+    public int getmResourceId() {
+        return mResourceId;
+    }
 
     /**
      * Returns whether or not there is an image for this word.
